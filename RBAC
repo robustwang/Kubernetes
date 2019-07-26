@@ -1,0 +1,8 @@
+遇到
+error: unable to upgrade connection: Forbidden (user=system:anonymous, verb=create, resource=nodes, subresource=proxy)
+
+
+kubectl create clusterrolebinding system:anonymous --clusterrole=cluster-admin --user=system:anonymous
+
+
+ kubectl exec -it podname -- bash 
